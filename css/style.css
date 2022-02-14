@@ -263,6 +263,7 @@ th {
 label {
     display: inline-block;
     margin-bottom: 0.5rem;
+    float: right;
 }
 
 button {
@@ -333,6 +334,7 @@ input[type="time"],
 input[type="datetime-local"],
 input[type="month"] {
     -webkit-appearance: listbox;
+    float: right;
 }
 
 textarea {
