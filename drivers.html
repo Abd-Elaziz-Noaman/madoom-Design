@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Delivery agents</title>
+  	<title>Drivers </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -48,20 +48,24 @@
         <div class="form-outline">
         <input class="form-control" id="choices-text-preset-values" type="text" placeholder="Type to search..." />
         </div>
-        <label for="start">Frome:</label>
+        <div id='calender'>
+          <div class="grid">
+            <label for="start">Frome:</label>
 
-        <input type="date" id="start" name="trip-start"
-       value="2018-07-22"
-       min="2018-01-01" max="2018-12-31">
+            <input type="date" id="start" name="trip-start"
+          value="2022-07-22"
+          min="2022-01-01" max="2022-12-31">
 
        <label for="end">To:</label>
 
        <input type="date" id="start" name="trip-start"
-      value="2018-07-22"
-      min="2018-01-01" max="2018-12-31">
+      value="2022-07-22"
+      min="2022-01-01" max="2022-12-31">
+          </div>
+        </div>
         <br/>
         <table class="table table-bordered">
-          <thead style="background-color:#191970; color:#FFFFFF;">
+          <thead style="background-color:#101046; color:#FFFFFF;">
             <tr>
               <th scope="col">Driver name</th>
               <th scope="col">Driver id</th>

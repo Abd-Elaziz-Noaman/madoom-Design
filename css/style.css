@@ -65,7 +65,8 @@ section {
     bottom: 0;
     width: 300px;
     z-index: 9999;
-    background: #191970;
+    background: #101046;
+    ;
 }
 
 #footer .copyright {
@@ -77,6 +78,10 @@ section {
     text-align: center;
     font-size: 13px;
     color: #eaebf0;
+}
+
+.calender {
+    display: grid;
 }
 
 #choices-text-preset-values {
@@ -11076,7 +11081,7 @@ h5,
 #sidebar {
     min-width: 300px;
     max-width: 300px;
-    background: #191970;
+    background: #101046;
     color: #fff;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
