@@ -16,23 +16,39 @@
 			<nav id="sidebar">
 				<div class="p-4 pt-5">
 		  		<a href="#" class="img logo rounded-square mb-5" style="background-image: url(images/madoom1.png);"></a>
+        
 	        <ul class="list-unstyled components mb-5">
-	          <li class="active">
-	            <a href="#Delivery agents">Delivery agents</a>
+            <li class="active">
+	            <a href="#Delivery agents">Dashboard</a>
 	          </li>
 
+	          <li class="active">
+	            <a href="#Delivery agents">Drivers payment</a>
+	          </li>
+            
 	          <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Reports</a>
-              <ul class="collapse list-unstyled" id="pageSubmenu">
+              <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Reports</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu1">
                 <li>
-                    <a href="#cash">cash</a>
+                    <a href="#Final amount">Final amount</a>
                 </li>
                 <li>
                     <a href="#target">target</a>
                 </li>
               </ul>
+            <li>
+              <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Languages</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu2">
+                <li>
+                    <a href="#Arabic">Arabic</a>
+                </li>
+                <li>
+                    <a href="#English">English</a>
+                </li>
+              </ul>
+                
 
-            <br/>
+
           <footer id="footer">
             <div class="container">
                 <div class="copyright">
@@ -46,23 +62,14 @@
         <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5">
         <div class="form-outline">
-        <input class="form-control" id="choices-text-preset-values" type="text" placeholder="Type to search..." />
+          
+        <input class="form-control" id="choices-text-preset-values" type="text" placeholder="Search by Driver name, Driver ID" />
         </div>
-        <div id='calender'>
-          <div class="grid">
-            <label for="start">Frome:</label>
+        
+        
+        
 
-            <input type="date" id="start" name="trip-start"
-          value="2022-07-22"
-          min="2022-01-01" max="2022-12-31">
 
-       <label for="end">To:</label>
-
-       <input type="date" id="start" name="trip-start"
-      value="2022-07-22"
-      min="2022-01-01" max="2022-12-31">
-          </div>
-        </div>
         <br/>
         <table class="table table-bordered">
           <thead style="background-color:#101046; color:#FFFFFF;">
@@ -138,6 +145,7 @@
         </table>
       </div>
 		</div>
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
