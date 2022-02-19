@@ -21,21 +21,21 @@
 
                 <ul class="list-unstyled components mb-5">
                     <li class="active">
-                        <a href="#Delivery agents">Dashboard</a>
+                        <a href="./dashboard.html">Dashboard</a>
                     </li>
 
                     <li class="active">
-                        <a href="#Delivery agents">Drivers payment</a>
+                        <a href="./index.html">Drivers payment</a>
                     </li>
 
                     <li>
                         <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Reports</a>
                         <ul class="collapse list-unstyled" id="pageSubmenu1">
                             <li>
-                                <a href="#Final amount">Final amount</a>
+                                <a href="./Final-amount.html">Final amount</a>
                             </li>
                             <li>
-                                <a href="#target">target</a>
+                                <a href="./target.html">target</a>
                             </li>
                         </ul>
                         <li>
@@ -88,15 +88,36 @@
                         <td>mohamed eslam</td>
 
                     </tr>
+                </tbody>
+            </table>
 
+            <div class="row">
+                <div class="col-6">
+                    <canvas id="drivers-target" style="width:100%;max-width:700px"></canvas>
+                </div>
+                <div class="col-6">
+                    <canvas id="drivers-cash" style="width:100%;max-width:700px"></canvas>
+                </div>
+            </div>           
+            
+            <div class="row">
+                <div class="col-6">
+                    <canvas id="drivers-debit" style="width:100%;max-width:700px"></canvas>
+                </div>
+                <div class="col-6">
+                    <canvas id="drivers-credit" style="width:100%;max-width:700px"></canvas>
+                </div>
+            </div>
 
         </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/charts.js"></script>
 </body>
 
 </html>
